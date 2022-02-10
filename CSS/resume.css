@@ -7,11 +7,12 @@
 .main {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
 .leftdiv {
-    background-color: #ddd;
+background-color: #ddd;
 width: 25%;
 border: 3px solid white;
 box-shadow: 8px 8px 8px white;
@@ -81,4 +82,62 @@ li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
 
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .leftdiv {
+        width: 90%;
+        font-style: italic;
+    }
+    .rightdiv {
+        width: 90%;
+        margin: 10px;
+        
+    }
+    table {
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+    td {
+        padding: 0;
+    }
+    .skills {
+        display: flex ;
+        flex-direction: column;
+        text-align: center;
+    }
+        
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .leftdiv {
+        width: 70%;
+        background-color: black;
+        color: #ffffff;
+        height: auto;
+        box-shadow: 10px 10px 8px #ddd;
+        border: 5px solid #ddd;
+        margin: 10px;
+    }
+    img {
+        width: 70%;
+        border-radius: 250px;
+    }
+    .rightdiv {
+        width: 90%;
+    }
+    .skills {
+        display: flex ;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .html, .css, .python, .c, .javascript, .reactjs {
+        margin: 10px;
+        padding: 30px 80px;
+        color: #000ddd;
+        font-size: 30px;
+
+    }
 }
