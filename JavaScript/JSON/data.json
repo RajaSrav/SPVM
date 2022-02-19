@@ -1,0 +1,28 @@
+{
+    "flip":[
+        {
+            "image":"images/sample1.jpeg",
+            "name":"Sample Mobile",
+            "pri":"13399"
+        },
+        {
+            "image":"images/c21y-realme.jpeg",
+            "name":"Realme C 21",
+            "pri":"15399"
+        },
+        {
+            "image":"images/narzo-30-pro-5g.jpeg",
+            "name":"images/Narzo 30 Pro",
+            "pri":"21399"
+        },
+        {
+            "image":"images/pococ31.jpeg",
+            "name":"POCO C 31",
+            "pri":"18399"
+        }, {
+            "image":"images/smart-5-x688c-infinix.jpeg",
+            "name":"INfinix",
+            "pri":"23399"
+        }
+    ]
+}
